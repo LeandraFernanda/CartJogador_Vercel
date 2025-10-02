@@ -1,10 +1,10 @@
 //import React from 'react';
 import CardJogador from './components/CardJogador';
 import Fallen from './assets/fallen.jpg';
-import Alan_Patrick from './assets/alan_patrick.png';
+//import Alan_Patrick from './assets/alan_patrick.png';
 import HugoMallo from './assets/Hugo-Mallo.jpg';
 import Tinga from './assets/Tinga.jpg';
-import Fernandao from './assets/fernandao.jpg';
+//import Fernandao from './assets/fernandao.jpg';
 import Titulo from './components/Titulo';
 
 
@@ -20,18 +20,8 @@ export default function App(){
        avaliacao: 10, 
        imagem: Fallen
       },
-    {id:2, 
-      nome:"Fernandão",
-       posicao:"Atacante/Capitão",
-        time: "Internacional",
-         avaliacao: 10,
-          imagem: Fernandao},
-    {id:3,
-       nome:"Alan_Patrick",
-        posicao:"Meia",
-        time: "Internacional",
-          avaliacao: 9.5,
-           imagem: Alan_Patrick},
+    
+    
     {id:4,
        nome:"Hugo-Mallo",
        posicao:"Lateral Direito/Capitão",
